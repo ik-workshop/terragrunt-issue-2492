@@ -3,6 +3,7 @@
 ## Contents
 
 - [Terragrunt issue](#terragrunt-issue)
+  - [Commands](#commands)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

@@ -33,11 +33,11 @@ remote_state {
   ## Local backend - useful for testing locally; writes state to stack directory
   backend = "s3"
   config = {
-    encrypt                 = true
-    bucket                  = "terraform-state-${local.account_id}"
-    region                  = "eu-west-1"
-    key                     = "issues/${local.issue_id}-terraform.tfstate"
-    kms_key_id              = "alias/paas-eks"
+    encrypt    = true
+    bucket     = "terraform-state-${local.account_id}"
+    region     = "eu-west-1"
+    key        = "issues/${local.issue_id}-terraform.tfstate"
+    kms_key_id = "alias/paas-eks"
     # kms_key_id              = get_env("KMS_KEY_ID")
     # kms_key_id              = get_env("KMS_KEY_ARN")
     disable_bucket_update   = true
