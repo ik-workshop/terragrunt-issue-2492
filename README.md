@@ -29,4 +29,4 @@ aws s3api head-object --bucket terraform-state-888888888888 --key "issues/2492-t
 [**Create a repository using this template →**][template.generate]
 
 <!-- resources -->
-[template.generate]: https://github.com/ik-workshop/terragrunt-issue-2492
+[template.generate]: https://github.com/ik-workshop/terragrunt-issue-2492/generate
