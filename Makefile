@@ -6,6 +6,13 @@ help:
 setup: ## Setup dependencies
 	@brew bundle
 
+install: ## Install pre-commit hooks
+	@pre-commit install
+	@pre-commit gc
+
+uninstall: ## Uninstall hooks
+	@pre-commit uninstall
+
 hooks: ## install pre commit.
 	@pre-commit install
 	@pre-commit gc
@@ -13,3 +20,7 @@ hooks: ## install pre commit.
 
 validate: ## Validate files with pre-commit hooks
 	@pre-commit run --all-files
+
+cleanup: ## Cleanup project. Remove Terraform and Terragrunt leftovers
+	@find . -type d -name ".terragrunt-cache" -prune -exec rm -rf {} \;
+	@find . -type f -name ".terraform.lock.hcl" -prune -exec rm  {} \;
