@@ -3,10 +3,10 @@ _extends: .github
 
 repository:
   # See https://developer.github.com/v3/repos/#edit for all available settings.
-  name: workshop-blueprint
-  description: ':factory: Workshop blueprint'
+  name: terragrunt-issue-2492
+  description: ':factory: Terragrunt issue 2492'
   homepage: https://ivankatliarchuk.github.io
-  topics: ivka, workshop, blueprint
+  topics: ivka, terragrunt, issue
   private: false
   has_issues: true
   has_projects: false
@@ -23,4 +23,4 @@ repository:
   enable_vulnerability_alerts: false
 
 branches:
-  - name: main
+  - name: master

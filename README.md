@@ -4,6 +4,7 @@
 
 - [Terragrunt issue](#terragrunt-issue)
   - [Commands](#commands)
+  - [Create](#create)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -22,3 +23,10 @@ aws s3api head-object --bucket terraform-state-888888888888 --key "issues/2492-t
     "key_id": "arn:aws:kms:eu-west-1:XXXXXXXXX:key/11644643-79fe-432d-ad82-97987979"
 }
 ```
+
+## Create
+
+[**Create a repository using this template →**][template.generate]
+
+<!-- resources -->
+[template.generate]: https://github.com/ik-workshop/terragrunt-issue-2492
