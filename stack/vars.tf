@@ -2,6 +2,6 @@
 
 variable "tags" {
   description = "tags"
-  type        = map
+  type        = map(any)
   default     = {}
 }

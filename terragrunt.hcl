@@ -1,9 +1,9 @@
 
 locals {
   tags = {
-          "isssue"     = "authorized-callback-services"
-          "author"     = "ik"
-        }
+    "isssue" = "authorized-callback-services"
+    "author" = "ik"
+  }
 }
 
 # Generate an AWS provider block
