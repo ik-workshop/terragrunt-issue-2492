@@ -8,8 +8,9 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# Terragrunt issue
+# Terraform and Terragrunt issues
 
+- [Inspired with repository](https://github.com/ik-terraform/terragrunt-tests)
 
 ## Commands
 
