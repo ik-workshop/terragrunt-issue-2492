@@ -3,8 +3,8 @@ _extends: .github
 
 repository:
   # See https://developer.github.com/v3/repos/#edit for all available settings.
-  name: terragrunt-issue-2492
-  description: ':factory: Terragrunt issue 2492'
+  name: tfm-terragrunt-issues
+  description: ':factory:' Terragrunt and Terraform issues
   homepage: https://ivankatliarchuk.github.io
   topics: ivka, terragrunt, issue
   private: false
